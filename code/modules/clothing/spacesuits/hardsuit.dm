@@ -486,6 +486,20 @@
 	allowed = list(/obj/item/gun,/obj/item/flashlight,/obj/item/tank/internals,/obj/item/melee/baton,/obj/item/reagent_containers/spray/pepper,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/restraints/handcuffs)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security
 
+/obj/item/clothing/head/helmet/space/hardsuit/security/warden
+	name = "warden's hardsuit helmet"
+	desc = "A special helmet designed for work in a hazardous, low pressure environment. Has an additional layer of armor."
+	icon_state = "hardsuit0-warden"
+	armor = list("melee" = 40, "bullet" = 20, "laser" = 30,"energy" = 20, "bomb" = 15, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 85)
+	item_color = "warden"
+
+/obj/item/clothing/suit/space/hardsuit/security/warden
+	name = "warden's hardsuit"
+	desc = "A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor."
+	icon_state = "hardsuit-warden"
+	armor = list("melee" = 40, "bullet" = 20, "laser" = 30,"energy" = 20, "bomb" = 15, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 85)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/warden
+
 /obj/item/clothing/head/helmet/space/hardsuit/security/hos
 	name = "head of security's hardsuit helmet"
 	desc = "A special bulky helmet designed for work in a hazardous, low pressure environment. Has an additional layer of armor."
