@@ -100,6 +100,11 @@
 /obj/machinery/suit_storage_unit/security/warden
 	name = "warden's suit storage unit"
 	suit_type = /obj/item/clothing/suit/space/hardsuit/security/warden
+
+/obj/machinery/suit_storage_unit/security/warden
+	name = "warden's suit storage unit"
+	suit_type    = /obj/item/clothing/suit/space/hardsuit/security/warden
+
 	req_access = list(ACCESS_ARMORY)
 
 /obj/machinery/suit_storage_unit/security/pod_pilot
